@@ -1,12 +1,12 @@
   ((document) =>{
     var firebaseConfig = {
-        apiKey: "AIzaSyBKlw5cjc8vIpzH0heAZuEdK-xjqOB1_cU",
-        authDomain: "joris-project.firebaseapp.com",
-        databaseURL: "https://joris-project.firebaseio.com",
-        projectId: "joris-project",
-        storageBucket: "joris-project.appspot.com",
-        messagingSenderId: "130237754007",
-        appId: "1:130237754007:web:212c1491d8a2c950"
-      };
+      apiKey: "AIzaSyApV6T5fe8Rs95_n4AHVKGdFYXphriHFIQ",
+      authDomain: "twitbook-20c73.firebaseapp.com",
+      databaseURL: "https://twitbook-20c73.firebaseio.com",
+      projectId: "twitbook-20c73",
+      storageBucket: "twitbook-20c73.appspot.com",
+      messagingSenderId: "143764871602",
+      appId: "1:143764871602:web:43b05d69bfd716e1"
+    };
     document.config = firebaseConfig;
 })(document) ;
