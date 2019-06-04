@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Twitbook</title>
+    <script>
+            //Le service worker
+            if ('serviceWorker' in navigator) {
+                 navigator.serviceWorker.register('service-worker.js');
+            }
+        </script>
+</head>
+<body>
+    <!-- Config FIREBASE à proteger -->
+    <script src="./config.js"></script>
+
+    <h2>Twitbook - Projet PWA</h2>
+    <app-twitbook></app-twitbook>
+
+    <!-- le component principal -->
+    <script type="module" src="./js/components/app.js"></script>
+</body>
+</html>
