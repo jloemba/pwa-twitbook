@@ -1,20 +1,17 @@
 {
-  "name": "twitbook",
+  "name": "twitter-PWA",
   "version": "1.0.0",
-  "description": "",
-  "main": "config.js",
+  "description": "Twitter with PWA",
+  "main": "src/js/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "npx polymer serve"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
   "dependencies": {
-    "lit-element": "^2.1.0",
-    "set-blocking": "^2.0.0",
-    "workbox": "0.0.0"
+    "firebase": "^6.0.2",
+    "lit-element": "^2.1.0"
   },
   "devDependencies": {
-    "workbox-cli": "^4.3.1"
+    "polymer-cli": "^1.9.9"
   }
 }
